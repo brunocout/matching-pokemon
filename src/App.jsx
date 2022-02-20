@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css'
-import CardGame from './components/CardGame/CardGame'
 import PlayerScore from './components/PlayerScore/PlayerScore'
+import BoardGame from './objects/BoardGame/BoardGame';
 
 function App() {
   return (
     <div className="App">
         <PlayerScore />
-        <CardGame />
+        <BoardGame amount={6} />
     </div>
   )
 }
