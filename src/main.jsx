@@ -2,7 +2,6 @@ import React from 'react'
 import ReactDOM from 'react-dom'
 import './index.css'
 import './styles/settings/colors.css'
-import './styles/elements/base.css'
 import './styles/generic/reset.css'
 import App from './App'
 

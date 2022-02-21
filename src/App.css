@@ -1,0 +1,12 @@
+html,
+body {
+    font-size: 0.8em;
+    height: 100vh;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    margin: auto;
+    max-width: 300px;
+    font-family: 'Press Start 2P', cursive;
+}

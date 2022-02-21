@@ -1,5 +1,5 @@
 import React from 'react';
-import CardGame from '../../components/CardGame/cardgame';
+import CardFrontBack from '../../components/CardFrontBack/CardFrontBack';
 import './BoardGame.css'
 
 const BoardGame = ({ amount }) => {
@@ -11,7 +11,7 @@ const BoardGame = ({ amount }) => {
     
     return ( 
     <div className='board-game'>
-        {arr.map(cards => <CardGame/>)}
+        {arr.map(cards => <CardFrontBack />)}
     </div> 
     );
 }
