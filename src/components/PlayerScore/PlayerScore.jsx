@@ -2,11 +2,13 @@ import React from 'react';
 
 import './PlayerScore.css'
 
-const PlayerScore = () => {
+const PlayerScore = ({ points = 0 }) => {
     return ( 
-    <div className='player-score'>
-        
-    </div> 
+    <ol className='player-score' data-points={points}>
+        <li className='pointer'>Um</li>
+        <li className='pointer'>Dois</li>
+        <li className='pointer'>Três</li>
+    </ol> 
     );
 }
  
