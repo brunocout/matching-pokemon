@@ -9,7 +9,7 @@ function App() {
     <div className="App">
         <PlayerScore />
         <ScoreBoard />
-        <BoardGame amount={2} />
+        <BoardGame amount={6} />
     </div>
   )
 }
