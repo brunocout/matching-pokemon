@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
         <ScoreBoard />
-        <BoardGame amount={6} />
+        <BoardGame amount={2} />
     </div>
   )
 }

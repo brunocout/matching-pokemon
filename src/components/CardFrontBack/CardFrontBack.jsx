@@ -3,7 +3,7 @@ import CardGame from '../../components/CardGame/CardGame';
 
 import './CardFrontBack.css'
 
-const CardFrontBack = () => {
+const CardFrontBack = ({icon, alt}) => {
 
     const handleOnClick = (e) => {
         const cardFrontBack = e.target.closest('.card-front-back')
@@ -15,8 +15,8 @@ const CardFrontBack = () => {
         <div className="card -front">
             <CardGame icon={'pokebola'} alt={'pokebola'} />
         </div>
-        <div className="card -back">
-            <CardGame icon={'charmander'} alt={'charmander'}/>
+        <div className="card -back" data-color={icon}>
+            <CardGame icon={icon} alt={alt}/>
         </div>
     </div> );
 }

@@ -22,9 +22,19 @@
     transform: rotateY(180deg);
 }
 
-.card-front-back > .card.-back > .card-game {
-    background-color: var(--second-bg-color);
+.card-front-back > .card.-back[data-color='charmander'] > .card-game {
+    background-color: var(--color-charmander-bg);
 }
+
+.card-front-back > .card.-back[data-color='bulbasaur'] > .card-game {
+    background-color: var(--color-bulbasaur-bg);
+}
+
+.card-front-back > .card.-back[data-color='squirtle'] > .card-game {
+    background-color: var(--color-squirtle-bg);
+}
+
+
 
 
 
