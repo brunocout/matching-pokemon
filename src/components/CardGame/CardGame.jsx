@@ -2,13 +2,12 @@ import React from 'react';
 
 import './CardGame.css'
 
-const CardGame = ({ icon = "pokebola", alt = "pokebola", color = "red"}) => {
+const CardGame = ({ icon = "pokebola" }) => {
 
     return ( 
     <div className={'card-game'}>
         <img
-        src={`../../../assets/images/`+ icon +`.png`} 
-        alt={alt}/>
+        src={`../../../assets/images/`+ icon +`.png`}/>
     </div> 
     );
 }

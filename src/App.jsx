@@ -5,10 +5,10 @@ import ScoreBoard from './objects/ScoreBoard/ScoreBoard';
 
 function App() {
   return (
-    <div className="App">
-        <ScoreBoard />
-        <BoardGame amount={2} />
-    </div>
+      <div className="App">
+            <ScoreBoard />
+            <BoardGame />
+      </div>
   )
 }
 

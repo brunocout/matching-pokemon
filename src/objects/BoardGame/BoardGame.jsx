@@ -1,9 +1,20 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import CardFrontBack from '../../components/CardFrontBack/CardFrontBack';
 import cards from './data';
 import './BoardGame.css'
 
 const BoardGame = () => {
+
+    const [card, setCard] = useState([])
+
+
+    useEffect(() => {
+        const shuffledCards = [...cards]
+            .sort(() => Math.random() - 0.5)
+            .map((card) => ({ ...card, id: Math.random() }))
+        setCard(shuffledCards) 
+    }, [])
+
     const flipAndHideCards = (cards) => {
         cards.forEach((card) => card.classList.remove('-active'))
     }
@@ -28,7 +39,7 @@ const BoardGame = () => {
     
     return ( 
     <div className='board-game' onClick={handleOnClick}>
-        {cards.map(card => <CardFrontBack icon={card.icon} alt={card.alt}/>)}
+        {card.map(card => <CardFrontBack icon={card.icon}/>)}
     </div> 
     );
 }

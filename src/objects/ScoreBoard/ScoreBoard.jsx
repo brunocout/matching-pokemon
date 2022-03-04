@@ -9,7 +9,7 @@ const ScoreBoard = () => {
     
     return ( 
     <div className='score-board'>
-        <ArrowDown currentPlayer={2} />
+        <ArrowDown currentPlayer={1} />
         <PlayerName player={'Player1'} />
         <PlayerScore />
         <VsPlayer />

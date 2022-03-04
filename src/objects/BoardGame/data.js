@@ -1,26 +1,20 @@
 const cards = [{
-    icon: 'charmander',
-    alt: 'charmander'
+    icon: 'charmander'
 },
 {
-    icon: 'bulbasaur',
-    alt: 'bulbasaur'
+    icon: 'bulbasaur'
 },
 {
-    icon: 'squirtle',
-    alt: 'squirtle'
+    icon: 'squirtle'
 },
 {
-    icon: 'charmander',
-    alt: 'charmander'
+    icon: 'charmander'
 },
 {
-    icon: 'bulbasaur',
-    alt: 'bulbasaur'
+    icon: 'bulbasaur'
 },
 {
-    icon: 'squirtle',
-    alt: 'squirtle'
+    icon: 'squirtle'
 }]
 
 export default cards
