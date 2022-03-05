@@ -2,5 +2,42 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    width: 300px;
+    margin: auto;
     padding: 2rem 0rem 2rem 0rem;
+}
+
+.player-score {
+    box-sizing: border-box;
+    color: white;
+    width: 50px;
+    height: 20px;
+    background-color: white;
+    border: 2px solid salmon;
+    padding: 1px;
+    display: flex;
+    gap: 1px;
+}
+
+.player-score > .pointer {
+    background-color: gray;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 33%;
+}
+
+.player-score[data-points="1"] > .pointer:first-child {
+    background-color: var(--win-bg-color);
+}
+
+.player-score[data-points="2"] {
+    flex-direction: row-reverse;
+}
+
+.player-score[data-points="2"] > .pointer:nth-child(n+2) {
+    background-color: var(--win-bg-color);
+}
+
+.player-score[data-points="3"] > .pointer {
+    background-color: var(--win-bg-color);
 }

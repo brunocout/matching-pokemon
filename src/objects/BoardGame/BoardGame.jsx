@@ -8,9 +8,11 @@ const BoardGame = () => {
     const [card, setCard] = useState([])
     const [choiceOne, setChoiceOne] = useState(null)
     const [choiceTwo, setChoiceTwo] = useState(null)
+    const [winner, setWinner] = useState()
+    
 
     const shuffleCard = () => {
-        const shuffledCards = [...cards, ...cards]
+        const shuffledCards = [...cards, ...cards, ...cards, ...cards]
             .sort(() => Math.random() - 0.5)
             .map((card) => ({ ...card, id: Math.random() }))
         setCard(shuffledCards) 
@@ -48,12 +50,36 @@ const BoardGame = () => {
     const handleOnClick = () => {
         const boardGame = document.querySelector('.board-game')
         const cardsActive = boardGame.querySelectorAll('.card-front-back.-active')
+        const player1 = document.querySelector('#player1')
+        const player2 = document.querySelector('#player2')
 
-        if (cardsActive.length == 2) {
-            setTimeout(() => {
-                swapPlayer()
-            }, 700);
+        if (!choiceTwo) {
+            roundPlayer(cardsActive)
+        } else if (player1.dataset.points == 3) {
+            playerWinner('player1')
+        } else if (player2.dataset.points == 3) {
+            playerWinner('player2')
         }
+    }
+
+    const playerWinner = (player) => {
+        setWinner(player)
+    }
+
+    const roundPlayer = (round) => {
+        setTimeout(() => {
+            if (round.length == 2) {
+                swapPlayer()
+            } else if (round.length == 4) {
+                swapPlayer()
+            } else if (round.length == 6) {
+                swapPlayer()
+            } else if (round.length == 8) {
+                swapPlayer()
+            } else if (round.length == 10) {
+                swapPlayer()
+            }
+        }, 1000);
     }
     
     return ( 

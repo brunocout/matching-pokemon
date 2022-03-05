@@ -5,10 +5,11 @@
     align-items: center;
     width: var(--width);
     height: var(--height);
-    background-color: var(--card-bg-color);
-    border: 4px solid var(--border-color);
+    background-color: var(--border-color);
+    border: 3px solid var(--button-border);
+    outline: 3px solid var(--button-outline);
 }
 
 .card-game img {
-    width: 100px;
+    width: 100%;
 }

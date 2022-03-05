@@ -1,12 +1,19 @@
 :root {
+    /* primary colors */
     --main-bg-color: #001830;
     --card-bg-color: #f9a83f;
     --border-color: #043F98;
     --second-border-color: #1166c0;
     --color-vs: #F5D547;
-    --win-bg-color: #62C370;
+    --win-bg-color: rgb(43, 187, 43);
+    /* pokemons colors */
     --color-charmander-bg: #a21212;
     --color-bulbasaur-bg: #46be58;
     --color-squirtle-bg: #1e79db;
+    /* details colors */
+    --button-bg-color: #264d6a;
+    --button-border: #fff;
+    --button-outline: #c8a841;
+    --text-shadow-color: #fa8072c9;
   }
   

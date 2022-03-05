@@ -1,7 +1,8 @@
 .card-front-back {
-    --width: 130px;
-    --height: 160px;
+    --width: 100%;
+    --height: 130px;
     width: var(--width);
+    max-width: 100px;
     height: var(--height);
     position: relative;
     transform-style: preserve-3d;
@@ -20,6 +21,7 @@
 
 .card-front-back > .card.-back {
     transform: rotateY(180deg);
+    
 }
 
 .card-front-back > .card.-back[data-color='charmander'] > .card-game {
