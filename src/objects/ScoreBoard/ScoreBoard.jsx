@@ -11,9 +11,9 @@ const ScoreBoard = () => {
     <div className='score-board'>
         <ArrowDown currentPlayer={1} />
         <PlayerName player={'Player1'} />
-        <PlayerScore />
+        <PlayerScore points={1}/>
         <VsPlayer />
-        <PlayerScore />
+        <PlayerScore points={1}/>
         <PlayerName player={'Player2'} />
     </div> 
     );

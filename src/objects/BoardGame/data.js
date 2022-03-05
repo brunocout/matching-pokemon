@@ -6,15 +6,7 @@ const cards = [{
 },
 {
     icon: 'squirtle'
-},
-{
-    icon: 'charmander'
-},
-{
-    icon: 'bulbasaur'
-},
-{
-    icon: 'squirtle'
-}]
+}
+]
 
 export default cards

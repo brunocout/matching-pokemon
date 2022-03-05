@@ -6,17 +6,37 @@ import './BoardGame.css'
 const BoardGame = () => {
 
     const [card, setCard] = useState([])
+    const [choiceOne, setChoiceOne] = useState(null)
+    const [choiceTwo, setChoiceTwo] = useState(null)
 
-
-    useEffect(() => {
-        const shuffledCards = [...cards]
+    const shuffleCard = () => {
+        const shuffledCards = [...cards, ...cards]
             .sort(() => Math.random() - 0.5)
             .map((card) => ({ ...card, id: Math.random() }))
         setCard(shuffledCards) 
+    }
+
+    useEffect(() => {
+        shuffleCard()
     }, [])
 
-    const flipAndHideCards = (cards) => {
-        cards.forEach((card) => card.classList.remove('-active'))
+    useEffect(() => {
+        if (choiceOne && choiceTwo) {
+            if (choiceOne === choiceTwo) {
+                resetChoice()
+            } else {
+                resetChoice()
+            }
+        }
+    }, [choiceOne, choiceTwo])
+
+    const resetChoice = () => {
+        setChoiceOne(null)
+        setChoiceTwo(null)
+    }
+
+    const handleChoice = (card) => {
+        choiceOne ? setChoiceTwo(card) : setChoiceOne(card)
     }
 
     const swapPlayer = () => {
@@ -31,15 +51,16 @@ const BoardGame = () => {
 
         if (cardsActive.length == 2) {
             setTimeout(() => {
-                flipAndHideCards(cardsActive)
                 swapPlayer()
-            }, 450);
+            }, 700);
         }
     }
     
     return ( 
     <div className='board-game' onClick={handleOnClick}>
-        {card.map(card => <CardFrontBack icon={card.icon}/>)}
+        {card.map(cards => <CardFrontBack 
+                            icon={cards.icon}
+                            handleChoice={handleChoice}/>)}
     </div> 
     );
 }
