@@ -3,16 +3,16 @@ import CardFrontBack from '../../components/CardFrontBack/CardFrontBack';
 import cards from './data';
 import './BoardGame.css'
 
-const BoardGame = () => {
+const BoardGame = ({ setWinner }) => {
 
     const [card, setCard] = useState([])
     const [choiceOne, setChoiceOne] = useState(null)
     const [choiceTwo, setChoiceTwo] = useState(null)
-    const [winner, setWinner] = useState()
+    
     
 
     const shuffleCard = () => {
-        const shuffledCards = [...cards, ...cards, ...cards, ...cards]
+        const shuffledCards = [...cards, ...cards]
             .sort(() => Math.random() - 0.5)
             .map((card) => ({ ...card, id: Math.random() }))
         setCard(shuffledCards) 
@@ -86,7 +86,8 @@ const BoardGame = () => {
     <div className='board-game' onClick={handleOnClick}>
         {card.map(cards => <CardFrontBack 
                             icon={cards.icon}
-                            handleChoice={handleChoice}/>)}
+                            handleChoice={handleChoice}
+                            setWinner={setWinner}/>)}
     </div> 
     );
 }

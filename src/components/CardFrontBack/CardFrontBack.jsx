@@ -1,5 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import CardGame from '../../components/CardGame/CardGame';
+import Overlay from '../Overlay/Overlay';
+
 
 import './CardFrontBack.css'
 
@@ -7,7 +9,7 @@ import './CardFrontBack.css'
     let lockBoard = false
     let firstCard, secondCard
     
-const CardFrontBack = ({ icon, handleChoice }) => {
+const CardFrontBack = ({ icon, handleChoice, setWinner }) => {
 
     const handleOnClick = (e) => {
         const cardFrontBack = e.target.closest('.card-front-back')
@@ -75,6 +77,7 @@ const CardFrontBack = ({ icon, handleChoice }) => {
                 playerScore.dataset.points = 2
             } else {
                 playerScore.dataset.points = 3
+                setWinner(player)
                 overlay.classList.add('-visible')
             }
         }, 900);

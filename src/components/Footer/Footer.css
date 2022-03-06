@@ -1,0 +1,26 @@
+.footer {
+    position: absolute;
+    margin-bottom: 40px;
+    margin-left: 90px;
+    margin-right: 100px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    align-items: center;
+    bottom: 0;
+    font-size: clamp(0.5em, 2vw, 1rem);
+    color: white;
+}
+
+.footer p {
+    margin-left: 10px;
+}
+
+.footer a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.footer a:hover {
+    color: rgba(255, 255, 255, 0.76);
+}

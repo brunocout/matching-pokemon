@@ -6,6 +6,15 @@ const cards = [{
 },
 {
     icon: 'squirtle'
+},
+{
+    icon: 'pikachu'
+},
+{
+    icon: 'eevee'
+},
+{
+    icon: 'mew'
 }
 ]
 

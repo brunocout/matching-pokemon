@@ -36,6 +36,19 @@
     background-color: var(--color-squirtle-bg);
 }
 
+.card-front-back > .card.-back[data-color='pikachu'] > .card-game {
+    background-color: var(--color-pikachu-bg);
+}
+
+.card-front-back > .card.-back[data-color='eevee'] > .card-game {
+    background-color: var(--color-eevee-bg);
+}
+
+.card-front-back > .card.-back[data-color='mew'] > .card-game {
+    background-color: var(--color-mew-bg);
+}
+
+
 
 
 
