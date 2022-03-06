@@ -11,7 +11,7 @@ function App() {
 
   return (
       <div className="App">
-            <div className="overlay-text -visible">
+            <div className="overlay-text">
               <h1>Victory</h1>
               <p className='overlay-text-winner'>player1 won!!</p>
               <button className='overlay-text-button' onClick={handleOnClick}>Restart<img src="../assets/images/restart.png"/></button>    
