@@ -2,7 +2,7 @@
   "name": "matching-game",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://brunocout.github.io/matching-pokemon",
+  "homepage": "https://brunocout.github.io/matching-pokemon/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
