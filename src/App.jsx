@@ -18,6 +18,10 @@ function App() {
             </div>
             <ScoreBoard />
             <BoardGame />
+            <footer>
+              <img src="../assets/images/profile.png"/>
+              <p>Bruno Coutinho</p>
+            </footer>
       </div>
   )
 }
