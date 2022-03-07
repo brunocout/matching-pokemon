@@ -2,6 +2,15 @@
   <img src="https://img.shields.io/static/v1?label=Matching-Pok%C3%A9mon&message=In%20progress&color=informational&style=for-the-badge&logo=ghost"/>
 </p>
 
+## Topics
+
+- ## Features
+- ## Layout
+- ## Technologies
+- ## Getting Started
+- ## Autor
+- ## Readme Version
+
 ## About the project
 
 <p align="center">Simple Pokémon memory game with card flip functions and cards with random positions and game points.</p>
