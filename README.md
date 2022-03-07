@@ -14,7 +14,7 @@
 </p>
 
 <p align="center">
-  🚧 <img src="https://img.shields.io/badge/-IN%20PROGRESS-color=yellow?style=for-the-badge"/> 🚧  
+  🚧 <img src="https://img.shields.io/badge/-IN%20PROGRESS-yellow"/> 🚧  
 </p>
 
 [ English ](./README.md)  |  [ Português ](./README-br.md)
