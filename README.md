@@ -4,13 +4,14 @@
   </a>
 </p>
 
+##
+
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=Matching-Pok%C3%A9mon&message=In%20progress&color=informational&style=for-the-badge&logo=ghost"/>  
 </p>
 
 [ English ](./README.md)  |  [ Português ](./README-br.md)
 
----
 
 ## 📰 About the project
 
