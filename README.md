@@ -8,14 +8,14 @@
 
 <p align="center">Simple Pokémon memory game with card flip functions and cards with random positions and game points.</p>
 
+<p align="center">
+  🚧 <img src="https://img.shields.io/badge/-IN%20PROGRESS-yellow"/> 🚧  
+</p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Boardgame" title="#Boardgame" src="./assets/toreadme/screen1.png" width="700px">
 </p>
 
-<p align="center">
-  🚧 <img src="https://img.shields.io/badge/-IN%20PROGRESS-yellow"/> 🚧  
-</p>
 
 [ English ](./README.md)  |  [ Português ](./README-br.md)
 
