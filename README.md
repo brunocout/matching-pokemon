@@ -10,7 +10,7 @@
 
 Access the demo version of the site here:
 
-* [![Matching-Pokémon](https://img.shields.io/badge/-MATCHING--POK%C3%89MON-informational)](https://brunocout.github.io/matching-pokemon/)
+[![Demo Website](https://img.shields.io/badge/-MATCHING--POK%C3%89MON-informational)](https://brunocout.github.io/matching-pokemon/)
 
 ## Features
 
