@@ -50,7 +50,7 @@ The application layout:
 The following tools are being used in building the project:
 
 - [Vite](https://vitejs.dev/)
-- [React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+- [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
 - [JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
 
 ## Getting Started
