@@ -1,5 +1,5 @@
 .card-front-back {
-    --width: 100%;
+    --width: 95px;
     --height: 130px;
     width: var(--width);
     max-width: 95px;
