@@ -2,6 +2,7 @@
   <img src="https://img.shields.io/static/v1?label=Matching-Pok%C3%A9mon&message=In%20progress&color=informational&style=for-the-badge&logo=ghost"/>
 </p>
 
+[ English ](./README.md)  |  [ Português ](./README-br.md)
 
 ## Topics
 
@@ -10,7 +11,6 @@
 - Technologies
 - Getting Started
 - Autor
-- Readme Version
 
 ## About the project
 
@@ -77,7 +77,7 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-## Autor
+## 💙 Autor
 
 <a href="https://github.com/brunocout">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/64153944?s=400&u=097e306bac1827a4a75841f10059ea87402bd83b&v=4" width="100px;" alt=""/>
@@ -90,6 +90,3 @@ Made w/ 💙 by Bruno Coutinho!
 [![Gmail Badge](https://img.shields.io/badge/-iambrunocout@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:iambrunocout@gmail.com)](mailto:iambrunocout@gmail.com)
 
 
-##  Readme version
-
-[ English 🇺🇸 ](./README.md)  |  [ Português 🇧🇷 ](./README-br.md)
