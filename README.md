@@ -1,8 +1,7 @@
-# Matching Pokémon
-
-<p align="center">
-  <img src="https://img.shields.io/badge/-IN%20PROGESS-informational?style=for-the-badge"/>  
-</p>
+<div align="center">
+    <h1>Matching Pokémon</h1>
+    <img src="https://img.shields.io/badge/-IN%20PROGESS-informational?style=for-the-badge"/>  
+</div>
 
 [ English ](./README.md)  |  [ Português ](./README-br.md)
 
