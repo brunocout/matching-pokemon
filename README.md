@@ -15,7 +15,7 @@ Access the demo version of the website here:
 [![Matching-Pokémon](https://img.shields.io/badge/-CLICK%20HERE-%23264d6a?style=for-the-badge)](https://brunocout.github.io/matching-pokemon/)
 
 ## Features
-
+- [x] Base Struture
 - [ ] New phases
 - [ ] Screen click to start
 - [ ] Change name of players
