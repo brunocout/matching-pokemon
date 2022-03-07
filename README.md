@@ -4,22 +4,28 @@
 
 ## Topics
 
-- ## Features
-- ## Layout
-- ## Technologies
-- ## Getting Started
-- ## Autor
-- ## Readme Version
+- Features
+- Layout
+- Technologies
+- Getting Started
+- Autor
+- Readme Version
+
+---
 
 ## About the project
 
 <p align="center">Simple Pokémon memory game with card flip functions and cards with random positions and game points.</p>
+
+---
 
 ## Demo
 
 Access the demo version of the site here:
 
 [![Matching-Pokémon](https://img.shields.io/badge/-CLICK%20HERE-%23264d6a?style=for-the-badge)](https://brunocout.github.io/matching-pokemon/)
+
+---
 
 ## Features
 
@@ -28,6 +34,8 @@ Access the demo version of the site here:
 - [ ] Change name of players
 - [ ] Add more cards
 - [ ] Add score players ranking
+
+---
 
 ## Layout
 
@@ -53,6 +61,7 @@ The application layout:
   <img alt="Gif" title="#Gif" src="./assets/toreadme/gif.gif" width="800px">
 </p>
 
+---
 
 ## Technologies
 
@@ -61,6 +70,8 @@ The following tools are being used in building the project:
 * [![Vite](https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E)](https://vitejs.dev/)
 * [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://pt-br.reactjs.org/docs/create-a-new-react-app.html)
 * [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+
+---
 
 ## Getting Started
 
@@ -74,8 +85,9 @@ yarn dev
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### Autor
 ---
+
+### Autor
 
 <a href="https://github.com/brunocout">
  <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/64153944?s=400&u=097e306bac1827a4a75841f10059ea87402bd83b&v=4" width="100px;" alt=""/>
@@ -86,6 +98,8 @@ Made w/ 💙 by Bruno Coutinho!
 
 [![Linkedin Badge](https://img.shields.io/badge/-brunocout-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/brunocout/)](https://www.linkedin.com/in/brunocout/) 
 [![Gmail Badge](https://img.shields.io/badge/-iambrunocout@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:iambrunocout@gmail.com)](mailto:iambrunocout@gmail.com)
+
+---
 
 ##  Readme version
 
