@@ -1,7 +1,7 @@
 
 <p align="center">
   <a href="https://ant.design">
-    <img width="400" src="./assets/toreadme/banner.png">
+    <img width="250" src="./assets/toreadme/banner.png">
   </a>
 </p>
 
