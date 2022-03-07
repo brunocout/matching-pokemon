@@ -23,6 +23,18 @@ The application layout:
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Boardgame" title="#Boardgame" src="./assets/toreadme/screen1.png" width="400px">
   <img alt="WinScreen" title="#WinScreen" src="./assets/toreadme/screen2.png" width="400px">
+</p>
+
+ ### Mobile
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
+  <img alt="Boardgame" title="#Boardgame" src="./assets/toreadme/screen3.png" width="400px">
+  <img alt="WinScreen" title="#WinScreen" src="./assets/toreadme/screen4.png" width="400px">
+</p>
+
+### Gif
+
+<p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Gif" title="#Gif" src="./assets/toreadme/gif.gif" width="800px">
 </p>
 
