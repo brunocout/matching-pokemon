@@ -8,12 +8,13 @@
 
 <p align="center">Simple Pokémon memory game with card flip functions and cards with random positions and game points.</p>
 
-<p align="center">
-  <img src="https://img.shields.io/static/v1?label=Matching-Pok%C3%A9mon&message=In%20progress&color=informational&style=for-the-badge&logo=ghost"/>  
-</p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
   <img alt="Boardgame" title="#Boardgame" src="./assets/toreadme/screen1.png" width="500px">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=Matching-Pok%C3%A9mon&message=In%20progress&color=informational&style=for-the-badge&logo=ghost"/>  
 </p>
 
 [ English ](./README.md)  |  [ Português ](./README-br.md)
