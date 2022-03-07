@@ -2,7 +2,7 @@
   <img src="https://img.shields.io/static/v1?label=Matching-Pok%C3%A9mon&message=In%20progress&color=informational&style=for-the-badge&logo=ghost"/>
 </p>
 
-## Topics
+### Topics
 
 - Features
 - Layout
@@ -13,13 +13,13 @@
 
 ---
 
-## About the project
+### About the project
 
 <p align="center">Simple Pokémon memory game with card flip functions and cards with random positions and game points.</p>
 
 ---
 
-## Demo
+### Demo
 
 Access the demo version of the site here:
 
@@ -27,7 +27,7 @@ Access the demo version of the site here:
 
 ---
 
-## Features
+### Features
 
 - [ ] New phases
 - [ ] Screen click to start
@@ -37,7 +37,7 @@ Access the demo version of the site here:
 
 ---
 
-## Layout
+### Layout
 
 The application layout:
 
@@ -63,7 +63,7 @@ The application layout:
 
 ---
 
-## Technologies
+### Technologies
 
 The following tools are being used in building the project:
 
@@ -73,7 +73,7 @@ The following tools are being used in building the project:
 
 ---
 
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
@@ -101,6 +101,6 @@ Made w/ 💙 by Bruno Coutinho!
 
 ---
 
-##  Readme version
+###  Readme version
 
 [ English 🇺🇸 ](./README.md)  |  [ Português 🇧🇷 ](./README-br.md)
