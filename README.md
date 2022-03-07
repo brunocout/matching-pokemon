@@ -1,21 +1,10 @@
-
-
-
-<div align="center">
-    <h1 align="center">Matching Pokémon</h1><span align="center">
+<p align="center">
   <img src="https://img.shields.io/badge/-IN%20PROGESS-informational?style=for-the-badge"/>  
-</span>
-</div>
+</p>
+
+<h1 align="center">Matching Pokémon</h1>
 
 [ English ](./README.md)  |  [ Português ](./README-br.md)
-
-## Topics
-
-- Features
-- Layout
-- Technologies
-- Getting Started
-- Autor
 
 ## About the project
 
