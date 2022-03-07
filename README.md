@@ -22,7 +22,7 @@ Access the demo version of the website here:
 - [ ] Add more cards
 - [ ] Add score players ranking
 
-## 🖼️ Layout
+## 🎨 Layout
 
 The application layout:
 
@@ -47,7 +47,7 @@ The application layout:
 </p>
 
 
-## 🖥️ Technologies
+## ⚙️ Technologies
 
 The following tools are being used in building the project:
 
@@ -56,7 +56,7 @@ The following tools are being used in building the project:
 * [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 
-## ⚙️ Getting Started
+## 🚀 Getting Started
 
 First, run the development server:
 
