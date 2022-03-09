@@ -3,7 +3,7 @@ import CardFrontBack from '../../components/CardFrontBack/CardFrontBack';
 import cards from './data';
 import './BoardGame.css'
 
-const BoardGame = ({ setWinner }) => {
+const BoardGame = ({ setWinner, player1, player2, reset }) => {
 
     const [card, setCard] = useState([])
     const [choiceOne, setChoiceOne] = useState(null)
@@ -87,7 +87,8 @@ const BoardGame = ({ setWinner }) => {
         {card.map(cards => <CardFrontBack 
                             icon={cards.icon}
                             handleChoice={handleChoice}
-                            setWinner={setWinner}/>)}
+                            setWinner={setWinner}
+                            player1={player1} player2={player2}/>)}
     </div> 
     );
 }
