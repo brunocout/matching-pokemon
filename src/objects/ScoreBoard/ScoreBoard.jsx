@@ -11,13 +11,13 @@ const ScoreBoard = () => {
     <div className='score-board'>
         <ArrowDown currentPlayer={1} />
         <PlayerName player={'Player1'} />
-        <ol className='player-score' data-points={0} id='player1'>
+        <ol className='player-score -player1' data-points={0}>
             <li className='pointer'>1</li>
             <li className='pointer'>2</li>
             <li className='pointer'>3</li>
         </ol> 
         <VsPlayer />
-        <ol className='player-score' data-points={0} id='player2'>
+        <ol className='player-score -player2' data-points={0}>
             <li className='pointer'>1</li>
             <li className='pointer'>2</li>
             <li className='pointer'>3</li>

@@ -1,6 +1,5 @@
 import React from 'react';
 import CardGame from '../../components/CardGame/CardGame';
-import Overlay from '../Overlay/Overlay';
 
 
 import './CardFrontBack.css'
@@ -32,8 +31,8 @@ const CardFrontBack = ({ icon, handleChoice, setWinner }) => {
 
     const checkForMatch = () => {
         const arrowDown = document.querySelector('.arrow-down')
-        const player1 = document.querySelector('#player1')
-        const player2 = document.querySelector('#player2')
+        const player1 = document.querySelector('.-player1')
+        const player2 = document.querySelector('.-player2')
 
         let isMatch = firstCard.dataset.pokemon ===
          secondCard.dataset.pokemon
@@ -68,7 +67,7 @@ const CardFrontBack = ({ icon, handleChoice, setWinner }) => {
 
     const addPoints = (player) => {
         const overlay = document.querySelector('.overlay-text')
-        const playerScore = document.querySelector(`#${player}`)
+        const playerScore = document.querySelector(`.-${player}`)
 
         setTimeout(() => {
             if (playerScore.dataset.points == 0) {

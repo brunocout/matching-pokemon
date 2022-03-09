@@ -50,8 +50,8 @@ const BoardGame = ({ setWinner }) => {
     const handleOnClick = () => {
         const boardGame = document.querySelector('.board-game')
         const cardsActive = boardGame.querySelectorAll('.card-front-back.-active')
-        const player1 = document.querySelector('#player1')
-        const player2 = document.querySelector('#player2')
+        const player1 = document.querySelector('.-player1')
+        const player2 = document.querySelector('.-player2')
 
         if (!choiceTwo) {
             roundPlayer(cardsActive)

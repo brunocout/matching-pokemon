@@ -57,7 +57,7 @@ The application layout:
 </p>
 
 
-## ⚙️ Technologies
+## ⚙️ Technologies 
 
 The following tools are being used in building the project:
 

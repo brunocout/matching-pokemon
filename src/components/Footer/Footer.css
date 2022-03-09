@@ -28,3 +28,9 @@
 .footer a:hover {
     color: rgba(255, 255, 255, 0.76);
 }
+
+@media (max-height: 730px) {
+    .footer {
+        display: none;
+    }
+}
