@@ -26,8 +26,8 @@ Access the demo version of the website here:
 
 ## ✨ Features
 - [x] Base Struture
+- [x] Screen Click to Start
 - [ ] New Phases
-- [ ] Screen Click to Start
 - [ ] Change Name of Players
 - [ ] Add New Cards
 - [ ] Add Score Players Ranking
