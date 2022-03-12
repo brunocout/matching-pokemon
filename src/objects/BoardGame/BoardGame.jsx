@@ -8,8 +8,6 @@ const BoardGame = ({ setWinner, player1, player2, reset }) => {
     const [card, setCard] = useState([])
     const [choiceOne, setChoiceOne] = useState(null)
     const [choiceTwo, setChoiceTwo] = useState(null)
-    
-    
 
     const shuffleCard = () => {
         const shuffledCards = [...cards, ...cards]

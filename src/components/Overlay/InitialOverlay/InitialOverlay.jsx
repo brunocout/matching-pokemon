@@ -23,8 +23,8 @@ const InitialOverlay = ({ setPlayer1, setPlayer2 }) => {
         <div className='initial-overlay -visible'>
             <h1>Start Game</h1>
             <div className='initial-overlay-input'>
-                <input type="text" placeholder='Player1' className='playername1' onChange={e=>handleOnInputChange1(e)} maxlength="7"/>
-                <input type="text" placeholder='Player2' className='playername2' onChange={e=>handleOnInputChange2(e)} maxlength="7"/>
+                <input type="text" placeholder='Player1' className='playername1' onChange={e=>handleOnInputChange1(e)} maxLength="7"/>
+                <input type="text" placeholder='Player2' className='playername2' onChange={e=>handleOnInputChange2(e)} maxLength="7"/>
             </div>
             <button className='initial-overlay-button' onClick={handleOnClick}>Press Start<img src="../assets/images/Start.png"/></button>    
         </div>

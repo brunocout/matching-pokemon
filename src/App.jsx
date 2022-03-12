@@ -11,15 +11,14 @@ function App() {
   const [winner, setWinner] = useState('')
   const [player1, setPlayer1] = useState('Player1')
   const [player2, setPlayer2] = useState('Player2')
-  const [reset, setReset] = useState(false)
 
 
   return (
       <div className="App">
           <InitialOverlay setPlayer1={setPlayer1} setPlayer2={setPlayer2} player1={player1} player2={player2}/>
-          <FinalOverlay winner={winner} setReset={setReset}/>
+          <FinalOverlay winner={winner}/>
           <ScoreBoard player1={player1} player2={player2} />
-          <BoardGame setWinner={setWinner} player1={player1} player2={player2} reset={reset}/>
+          <BoardGame setWinner={setWinner} player1={player1} player2={player2}/>
           <Footer />
       </div>
   )
