@@ -48,7 +48,7 @@
     background-color: var(--color-mew-bg);
 }
 
-@media (max-height: 650px) {
+@media (max-height: 640px) {
     .card-front-back {
         --height: 115px;
     }

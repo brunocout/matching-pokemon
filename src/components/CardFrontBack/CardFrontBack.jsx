@@ -8,7 +8,7 @@ import './CardFrontBack.css'
     let lockBoard = false
     let firstCard, secondCard
     
-const CardFrontBack = ({ icon, handleChoice, setWinner, player1, player2 }) => {
+const CardFrontBack = ({ icon, handleChoice, setWinner }) => {
 
     const handleOnClick = (e) => {
         const cardFrontBack = e.target.closest('.card-front-back')
@@ -38,9 +38,9 @@ const CardFrontBack = ({ icon, handleChoice, setWinner, player1, player2 }) => {
 
         if (isMatch) {
             if (arrowDown.dataset.currentplayer == 1) {
-                addPoints(player1)
+                addPoints('player1')
             } else {
-                addPoints(player2)
+                addPoints('player2')
             }
         } 
     }
@@ -60,8 +60,7 @@ const CardFrontBack = ({ icon, handleChoice, setWinner, player1, player2 }) => {
     }
 
     const addPoints = (player) => {
-        const overlay = document.querySelector('.final-overlay')
-        
+        const overlay = document.querySelector('.overlay-text')
         const playerScore = document.querySelector(`.-${player}`)
 
         setTimeout(() => {

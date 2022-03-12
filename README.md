@@ -26,11 +26,11 @@ Access the demo version of the website here:
 
 ## ✨ Features
 - [x] Base Struture
-- [x] Screen Click to Start
-- [ ] New Phases
-- [ ] Change Name of Players
-- [ ] Add New Cards
-- [ ] Add Score Players Ranking
+- [ ] New phases
+- [ ] Screen click to start
+- [ ] Change name of players
+- [ ] Add more cards
+- [ ] Add score players ranking
 
 ## 🎨 Layout
 
