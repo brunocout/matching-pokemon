@@ -12,7 +12,6 @@ function App() {
   const [player1, setPlayer1] = useState('Player1')
   const [player2, setPlayer2] = useState('Player2')
 
-
   return (
       <div className="App">
           <InitialOverlay setPlayer1={setPlayer1} setPlayer2={setPlayer2} player1={player1} player2={player2}/>
